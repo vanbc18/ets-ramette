@@ -1,0 +1,309 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 740px) and (max-width: 900px) {
+  /*First part with picture START */
+  #chantier-box {
+    height: 423px;
+  }
+
+  #logo {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+
+  #slogan {
+    position: relative;
+    width: 469px;
+    height: 112px;
+    bottom: 450px;
+    z-index: 1;
+    font-size: 40px;
+    line-height: 41px;
+    margin-top: 227px;
+    margin-left: 42px;
+    text-align: left;
+  }
+  /*First part with picture END */
+
+  .margins {
+    position: relative;
+    max-height: 2630px;
+    width: 100%;
+    padding: 29px 43px;
+    top: 200px;
+  }
+
+  /*Nous connaître section START*/
+  #nousConnaitre {
+    height: 155px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    bottom: 230px;
+  }
+
+  .titreConnaitre {
+    margin: 29px 0px 25px 0px;
+  }
+
+  .intro {
+    align-self: center;
+    min-width: 100%;
+    margin: 0px; 
+  }
+  /*Nous connaître section END*/
+
+  /*Notre accompagnement START*/
+  .accompagnement {
+    position: relative;
+    bottom: 236px;
+    margin-bottom: 50px;
+  }
+
+  .row {
+    position: relative;
+    bottom: 366px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .profile-img {
+    margin-top: 80px;
+  }
+
+  .text-in-row1 {
+    position: relative;
+    text-align: center;
+    margin: 50px 0px 25px 0px;
+    padding: 0px;
+  }
+
+  .text-in-row-par1 {
+    min-width: 483px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .text-in-row2 {
+    position: relative;
+    text-align: center;
+    align-self: center;
+    min-width: 317px;
+    height: 271px;
+    bottom: 80px;
+    padding: 0px 40px 0px 0px;
+  }
+
+  .text-in-row3 {
+    position: relative;
+    text-align: center;
+    align-self: center;
+    min-width: 317px;
+    height: 271px;
+    bottom: 80px;
+    padding: 0px 0px 0px 40px;
+  }
+  /*Accompagnement END*/
+
+  /*Nos Déplacements START*/
+  #nosDeplacements {
+    margin: 50px 0px;
+    position: relative;
+    bottom: 380px;
+  }
+
+  #mapGoogle {
+    height: 500px;
+  }
+
+  .text-deplacement2 {
+    margin-bottom: 25px;
+  }
+  /*Nos déplacements END*/
+
+  /*Nous contacter START*/
+  #contactUs {
+    position: relative;
+    bottom: 385px;
+    max-height: 1000px;
+  }
+  /*Infos Pratiques START*/
+  .infos-pratiques {
+    margin-bottom: 25px;
+  }
+
+  .iconMail {
+    position: relative;
+    bottom: 58px;
+    left: 205px;
+  }
+
+  .iconCal {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .contact {
+    bottom: 160px;
+  }
+
+  .contactMail {
+    bottom: 185px;
+    left: 254.21px;
+  }
+
+  #horaires {
+    margin-right: 0px;
+    bottom: 155px;
+    left: 63px;
+    width: 140px;
+  }
+  /*Infos Pratiques END*/
+
+  /*Form section START*/
+  #form {
+    width: 100%;
+    bottom: 150px;
+  }
+
+  .message {
+    bottom: 155px;
+  }
+
+  #name-label {
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 2px;
+  }
+
+  .input-name {
+    position: relative;
+    right: 118px;
+    width: 48%;
+  }
+
+  #business-label {
+    width: 47%;
+    position: relative;
+    bottom: 106px;
+    left: 52%;
+    margin-bottom: 2px;
+  }
+
+  .input-business {
+    position: relative;
+    bottom: 66px;
+    left: 4.5%;
+    height: 48px;
+    width: 47.99%;
+  }
+
+  #email-label {
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 83px;
+  }
+
+  .input-email {
+    position: relative;
+    width: 48%;
+    bottom: 43px;
+    right: 53px;
+    height: 48px;
+  }
+
+  #tel-label {
+    width: 47%;
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 149px;
+    left: 52%;
+  }
+
+  .input-tel {
+    position: relative;
+    bottom: 109px;
+    left: 4.5%;
+    width: 47.99%;
+    height: 48px;
+  }
+
+  #adresse-postale {
+    width: 100%;
+    position: relative;
+    bottom: 114px;
+    margin-bottom: 2px;
+  }
+
+  .input-address {
+    width: 100%;
+    position: relative;
+    bottom: 113px;
+  }
+
+  #objet {
+    bottom: 119px;
+  }
+
+  .input-objet {
+    bottom: 117px;
+  }
+
+  .yourMsg {
+    bottom: 120px;
+  }
+
+  .input-textarea {
+    bottom: 119px;
+  }
+
+  #submit-container {
+    bottom: 126px;
+  }
+
+  #submit {
+    border-radius: 100px;
+    margin-bottom: 68px;
+  }
+
+  /*Form section END*/
+
+  #footer {
+    min-height: 314px;
+    margin-top: -15px;
+  }
+
+  .footer-margins {
+    margin: 36px 42px 43px 43px;
+    min-width: 659px;
+  }
+
+  .protection {
+    top: 30px;
+  }
+
+  .data-protection {
+    width: 659px;
+    height: 235px;
+    top: 25px;
+    white-space: none;
+  }
+
+  .team {
+    top: 50px;
+    white-space: nowrap;
+  }
+}
+
+/*This moves the calendar icon on the right 
+when viewport changes between 800 and 900px*/
+@media (min-width: 800px) and (max-width: 900px) {
+  .iconCal {
+    bottom: 115px;
+    left: 490px;
+  }
+
+  #horaires {
+    bottom: 220px;
+    left: 553px;
+  }
+}

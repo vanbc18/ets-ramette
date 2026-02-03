@@ -1,0 +1,295 @@
+body {
+  display: grid;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  justify-items: center;
+  height: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.container-fluid {
+  padding: 0px 0px;
+}
+
+/*First part with picture START */
+#logo {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+#chantier-box {
+  width: 100%;
+}
+
+#chantier {
+  width: 100%;
+  height: 423px;
+  opacity: 0.7;
+  object-fit: cover;
+}
+
+#slogan {
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 0.0075em;
+  font-feature-settings: "ss01" on;
+  color: #212529;
+  gap: 10px;
+  padding: 15px 30px;
+  text-align: left;
+}
+
+/*First part with picture END */
+
+/*Nous connaître section START*/
+#nousConnaitre {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #212529;
+}
+
+.titreConnaitre {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.intro {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+/*Nous connaître section END*/
+
+/*Notre accompagnement START*/
+
+.accompagnement {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.profile-img {
+  width: 88px;
+  height: 88px;
+}
+
+.img-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 48px;
+  color: #212529;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+/*Accompagnement END*/
+
+/*Nos Déplacements START*/
+#nosDeplacements {
+  margin-bottom: 50px;
+}
+
+.text-deplacement-container {
+  margin-bottom: 25px;
+}
+
+.deplacement {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 50px 0px 25px 0px;
+}
+
+#mapGoogle {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*Nos déplacements END*/
+
+/*Nous contacter START*/
+
+.nousContacter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+/*Infos Pratiques START*/
+
+.infos-pratiques {
+  margin-bottom: 25px;
+}
+
+.iconTel,
+.iconMail,
+.iconCal {
+  display: flex;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.contact {
+  position: relative;
+  margin-left: 20px;
+  left: 47px;
+  text-decoration: none;
+  color: #000;
+  cursor: default;
+}
+
+.contactMail {
+  position: relative;
+  left: 47px;
+  margin-left: 20px;
+}
+
+#horaires {
+  position: relative;
+}
+/*Infos Pratiques END*/
+
+/*Form section START*/
+
+#form {
+  position: relative;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.message {
+  position: relative;
+  margin: 30px 0px;
+}
+
+input:focus, textarea:focus, input:focus:required:valid {
+  outline: none;
+  border-color: #007AFF;
+}
+
+input:focus:required:invalid, textarea:focus:required:invalid {
+  outline: none;
+  border-color: #FF9500;
+
+}
+
+.box-border {
+  padding: 10px 16px;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ced4da;
+  margin-bottom: 18px;
+  /* Shadow 2 */
+  box-shadow: 0px 2px 2px rgba(33, 37, 41, 0.06),
+    0px 0px 1px rgba(33, 37, 41, 0.08);
+  border-radius: 8px;
+}
+
+.input-objet {
+  width: 100%;
+  position: relative;
+}
+
+.yourMsg,
+#objet {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.input-textarea {
+  position: relative;
+  width: 100%;
+  min-height: 177px;
+  padding: 10px 16px;
+  box-shadow: 0px 2px 2px rgba(33, 37, 41, 0.06),
+    0px 0px 1px rgba(33, 37, 41, 0.08);
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  margin-bottom: 25px;
+}
+
+#submit-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#submit {
+  position: relative;
+  background-color: #556aeb;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 100px;
+  border: none;
+  padding: 6px 12px;
+  min-width: 86px;
+  min-height: 36px;
+}
+
+#submit:hover {
+  background-color: #1D2F99;
+}
+
+#submit:active {
+  background-color: #0C1A66;
+}
+
+/*Form section END*/
+
+#footer {
+  position: relative;
+  background: #020a33;
+  color: #fff;
+  left: 0px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.mentions {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #020a33;
+}
+
+.protection {
+  position: relative;
+  white-space: pre-line;
+}
+
+.data-protection {
+  position: relative;
+}
+
+.team {
+  position: relative;
+  min-width: 290px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+}

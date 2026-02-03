@@ -1,0 +1,348 @@
+/* Large devices (laptops/desktops, 900px and up) */
+@media (min-width: 900px) {
+  body {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  /*First part with picture START */
+  #chantier-box {
+    height: 720px;
+  }
+
+  #chantier {
+    height: 720px;
+  }
+
+  #logo {
+    width: 45%;
+    max-width: 1280px;
+    height: 118px;
+    top: 58px;
+  }
+
+  #slogan-box {
+    position: relative;
+    bottom: 332px;
+    margin: 0px 86px;
+  }
+
+  #slogan {
+    width: 674px;
+    height: 164px;
+    font-size: 60px;
+    line-height: 72px;
+  }
+  /*First part with picture END */
+
+  .margins {
+    max-width: 1280px;
+    padding: 0px 86px;
+    justify-content: center;
+  }
+
+  /*Nous connaître section START*/
+
+  .titreConnaitre {
+    font-size: 48px;
+    line-height: 64px;
+    margin: 84px 0px 25px 0px;
+  }
+
+  .intro {
+    align-self: stretch;
+    margin-bottom: 100px;
+    font-size: 18px;
+  }
+  /*Nous connaître section END*/
+
+  /*Notre accompagnement START*/
+
+  .accompagnement {
+    height: 64px;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 25px;
+  }
+
+  .profile-img {
+    margin-bottom: 5px;
+  }
+
+  .img-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 5px 0px;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px 0px 100px 0px;
+  }
+
+  .text-in-row1,
+  .text-in-row2 {
+    display: inline-block;
+    max-width: 316.67px;
+    min-width: 200px;
+    height: 342px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 80px;
+    padding: 0px;
+  }
+
+  .text-in-row3 {
+    display: inline-block;
+    max-width: 316.67px;
+    height: 342px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px;
+  }
+  /*Accompagnement END*/
+
+  /*Nos Déplacements START*/
+  #nosDeplacements {
+    height: 450px;
+    width: 100%;
+  }
+
+  .deplacement {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 123px;
+  }
+
+  #text-deplacement {
+    position: relative;
+    min-width: 337px;
+    width: 43.5%;
+    height: 221px;
+    z-index: 1;
+    left: 28.5%;
+  }
+
+  .text-deplacement2 {
+    margin-bottom: 0px;
+  }
+
+  #mapGoogle {
+    width: 50%;
+    max-width: 540px;
+    height: 417px;
+    bottom: 350px;
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+  /*Nos déplacements END*/
+
+  /*Nous contacter START*/
+  #contactUs {
+    position: relative;
+    top: 87px;
+    height: 816px;
+    justify-items: stretch;
+  }
+
+  .nousContacter {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 25px;
+  }
+
+  #contact-infos {
+    position: relative;
+    max-width: 349px;
+    left: 62.8%;
+    top: 5px;
+  }
+
+  .infos-pratiques {
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    top: 10px;
+  }
+
+  /*Infos Pratiques START*/
+  .iconTel,
+  .iconMail,
+  .iconCal {
+    top: 13px;
+  }
+
+  .contact {
+    bottom: 150px;
+  }
+
+  .contactMail {
+    bottom: 121px;
+  }
+
+  #horaires {
+    margin-left: 20px;
+    bottom: 105px;
+    left: 48px;
+    margin-bottom: 0px;
+  }
+  /*Infos Pratiques END*/
+
+  /*Form section START*/
+  #form {
+    width: 55%;
+    min-width: 200px;
+    bottom: 378px;
+  }
+
+  .message {
+    bottom: 350px;
+    margin-top: 25px;
+  }
+
+  #name-label {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  .input-name {
+    width: 47.5%;
+    margin-right: 30px;
+  }
+
+  #business-label {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+    left: 52.5%;
+    bottom: 96px;
+  }
+
+  .input-business {
+    position: relative;
+    height: 48px;
+    width: 47.5%;
+    left: 52.5%;
+    bottom: 96px;
+  }
+
+  #email-label {
+    position: relative;
+    margin-bottom: 2px;
+    width: 100%;
+    bottom: 95px;
+  }
+
+  .input-email {
+    position: relative;
+    width: 47.5%;
+    height: 48px;
+    bottom: 95px;
+    margin-right: 30px;
+  }
+
+  #tel-label {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+    left: 52.5%;
+    bottom: 191px;
+  }
+
+  .input-tel {
+    position: relative;
+    width: 47.5%;
+    height: 48px;
+    left: 52.5%;
+    bottom: 191px;
+  }
+
+  #adresse-postale {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 190px;
+  }
+
+  .input-address {
+    width: 100%;
+    position: relative;
+    bottom: 190px;
+  }
+
+  #objet {
+    bottom: 195px;
+  }
+
+  .input-objet {
+    bottom: 195px;
+  }
+
+  .yourMsg {
+    bottom: 200px;
+  }
+
+  .input-textarea {
+    bottom: 200px;
+  }
+
+  #submit {
+    bottom: 206px;
+    margin-bottom: 100px;
+  }
+  /*Form section END*/
+  #footer {
+    font-size: 18px;
+    line-height: 28px;
+    top: 178px;
+  }
+
+  .footer-margins {
+    margin: 46px 85px 16px 85px;
+  }
+
+  .mentions {
+    font-size: 18px;
+    line-height: 48px;
+  }
+
+  .protection {
+    margin-top: 30px;
+  }
+
+  .data-protection {
+    max-width: 659px;
+    height: 235px;
+  }
+
+  .team {
+    margin-top: 30px;
+  }
+}
+
+/*This is a media query for very large screens*/
+@media (min-width: 1280px) {
+  #slogan-box {
+    display: grid;
+    justify-items: center;
+    margin-left: -350px;
+  }
+
+  #chantier {
+    width: 100%;
+  }
+
+  #footer {
+    display: grid;
+    justify-content: center;
+  }
+
+  .footer-margins {
+    max-width: 1280px;
+    justify-items: center;
+    margin-left: 9.5%;
+  }
+}

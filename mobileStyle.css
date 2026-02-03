@@ -1,0 +1,165 @@
+/*Mobile version*/
+@media (max-width: 740px) {
+
+    /*First part with picture START */
+    #chantier-box {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      height: 423px;
+    }
+  
+    #slogan {
+      position: relative;
+      bottom: 160px;
+      font-size: 24px;
+      line-height: 30px;
+      padding: 10px;
+      margin: 0px 15px 80px 15px;
+    }
+    /*First part with picture END */
+  
+    .margins {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    /*Nous connaître section START*/
+    #nousConnaitre {
+      max-height: 280px;
+    }
+  
+    .titreConnaitre {
+      margin: 30px 0px 25px 0px;
+    }
+  
+    .intro {
+      margin-bottom: 50px;
+    }
+  
+    /*Nous connaître section END*/
+  
+    /*Notre accompagnement START*/
+    .accompagnement {
+      margin-bottom: 25px;
+      justify-self: flex-start;
+    }
+  
+    .img-subtitle {
+      margin-bottom: 5px;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+    }
+
+    .text-in-row1,
+    .text-in-row2,
+    .text-in-row3 {
+      position: relative;
+      top: 10px;
+      min-width: 290px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 25px;
+      text-align: center;
+    }
+  
+    .text-in-row-par1,
+    .text-in-row-par2 {
+      margin-bottom: 25px;
+    }
+    /*Accompagnement END*/
+  
+    /*Nos Déplacements START*/
+    .text-deplacement2 {
+      margin-bottom: 25px;
+    }
+    
+    #mapGoogle {
+      max-height: 219px;
+    }
+    /*Nos déplacements END*/
+  
+    /*Nous contacter START*/
+    #contactUs {
+      width: 100%;
+      max-height: 1145px;
+    }
+  
+    /*Infos Pratiques START*/
+  
+    .iconTel,
+    .iconMail,
+    .iconCal {
+      min-width: 47.96px;
+      min-height: 48px;
+    }
+  
+    .contact {
+      bottom: 163px;
+    }
+  
+    .contactMail {
+      bottom: 127px;
+    }
+  
+    #horaires {
+      width: 115px;
+      bottom: 107px;
+      left: 67px;
+      margin: 0px; 
+    }
+    /*Infos Pratiques END*/
+  
+    /*Form section START*/
+    #form {
+      bottom: 110px;
+    }
+  
+    .message {
+      bottom: 82px;
+      margin: 30px 0px 25px 0px;
+    }
+  
+    #objet {
+      margin-bottom: 2px;
+    }
+  
+    .yourMsg {
+      margin-top: 0px;
+    }
+  
+    #submit-container {
+      bottom: 7px;
+      margin-bottom: 17px;
+    }
+  
+    #submit {
+      margin-bottom: 17px;
+    }
+    /*Form section END*/
+  
+    #footer {
+      background: #020a33;
+      color: #fff;
+      left: 0px;
+      top: 46px;
+    }
+  
+    .footer-margins {
+      margin: 15px;
+    }
+  
+    .protection {
+      top: 15px;
+    }
+  
+    .data-protection {
+      bottom: 20px;
+      white-space: pre-line;
+    }
+  }
+  
