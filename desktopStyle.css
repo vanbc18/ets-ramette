@@ -5,28 +5,28 @@
     line-height: 28px;
   }
   /*First part with picture START */
-  #chantier-box {
+  .chantier-box {
     height: 720px;
   }
 
-  #chantier {
+  .chantier {
     height: 720px;
   }
 
-  #logo {
+  .logo {
     width: 45%;
     max-width: 1280px;
     height: 118px;
-    top: 58px;
+    top: 50px;
   }
 
-  #slogan-box {
+  .slogan-box {
     position: relative;
     bottom: 332px;
     margin: 0px 86px;
   }
 
-  #slogan {
+  .slogan {
     width: 674px;
     height: 164px;
     font-size: 60px;
@@ -129,7 +129,7 @@
     margin-bottom: 0px;
   }
 
-  #mapGoogle {
+  .mapGoogle {
     width: 50%;
     max-width: 540px;
     height: 417px;
@@ -325,13 +325,12 @@
 
 /*This is a media query for very large screens*/
 @media (min-width: 1280px) {
-  #slogan-box {
+  .slogan-box {
     display: grid;
-    justify-items: center;
-    margin-left: -350px;
+    left: 6%;
   }
 
-  #chantier {
+  .chantier {
     width: 100%;
   }
 
@@ -342,7 +341,6 @@
 
   .footer-margins {
     max-width: 1280px;
-    justify-items: center;
     margin-left: 9.5%;
   }
 }

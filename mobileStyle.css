@@ -2,14 +2,14 @@
 @media (max-width: 740px) {
 
     /*First part with picture START */
-    #chantier-box {
+    .chantier-box {
       position: relative;
       width: 100%;
       text-align: center;
       height: 423px;
     }
   
-    #slogan {
+    .slogan {
       position: relative;
       bottom: 160px;
       font-size: 24px;
@@ -78,7 +78,7 @@
       margin-bottom: 25px;
     }
     
-    #mapGoogle {
+    .mapGoogle {
       max-height: 219px;
     }
     /*Nos déplacements END*/

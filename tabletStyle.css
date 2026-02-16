@@ -1,17 +1,17 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 740px) and (max-width: 900px) {
   /*First part with picture START */
-  #chantier-box {
+  .chantier-box {
     height: 423px;
   }
 
-  #logo {
+  .logo {
     position: absolute;
     right: 40px;
     top: 20px;
   }
 
-  #slogan {
+  .slogan {
     position: relative;
     width: 469px;
     height: 112px;
@@ -111,7 +111,7 @@
     bottom: 380px;
   }
 
-  #mapGoogle {
+  .mapGoogle {
     height: 500px;
   }
 
