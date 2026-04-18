@@ -1,3 +1,6 @@
+/* ==========================================
+   1. BASE STYLES (Anciennement style.css)
+   ========================================== */
 body {
   text-align: left;
   font-family: "Inter", sans-serif;
@@ -47,15 +50,13 @@ body {
   border-radius: 10px;
   font-weight: 700;
   letter-spacing: 0.0075em;
-  font-feature-settings: "ss01" on;
+  font-feature-settings: "ss01"on;
   color: #212529;
   display: flex;
   padding: 15px 30px;
   align-content: center;
   text-align: left;
 }
-
-/*First part with picture END */
 
 /*Nous connaître section START*/
 #nousConnaitre {
@@ -81,10 +82,7 @@ body {
   text-align: left;
 }
 
-/*Nous connaître section END*/
-
 /*Notre accompagnement START*/
-
 .accompagnement {
   font-weight: 700;
   font-size: 20px;
@@ -105,8 +103,6 @@ body {
   margin-bottom: 5px;
   text-decoration: underline;
 }
-
-/*Accompagnement END*/
 
 /*Nos Déplacements START*/
 #nosDeplacements {
@@ -130,10 +126,7 @@ body {
   object-fit: cover;
 }
 
-/*Nos déplacements END*/
-
 /*Nous contacter START*/
-
 .nousContacter {
   font-weight: 700;
   font-size: 20px;
@@ -142,7 +135,6 @@ body {
 }
 
 /*Infos Pratiques START*/
-
 .infos-pratiques {
   margin-bottom: 25px;
 }
@@ -173,10 +165,8 @@ body {
 #horaires {
   position: relative;
 }
-/*Infos Pratiques END*/
 
 /*Form section START*/
-
 #form {
   position: relative;
   width: 100%;
@@ -197,7 +187,6 @@ input:focus, textarea:focus, input:focus:required:valid {
 input:focus:required:invalid, textarea:focus:required:invalid {
   outline: none;
   border-color: #FF9500;
-
 }
 
 .box-border {
@@ -206,9 +195,7 @@ input:focus:required:invalid, textarea:focus:required:invalid {
   height: 48px;
   border: 1px solid #ced4da;
   margin-bottom: 18px;
-  /* Shadow 2 */
-  box-shadow: 0px 2px 2px rgba(33, 37, 41, 0.06),
-    0px 0px 1px rgba(33, 37, 41, 0.08);
+  box-shadow: 0px 2px 2px rgba(33, 37, 41, 0.06), 0px 0px 1px rgba(33, 37, 41, 0.08);
   border-radius: 8px;
 }
 
@@ -228,8 +215,7 @@ input:focus:required:invalid, textarea:focus:required:invalid {
   width: 100%;
   min-height: 177px;
   padding: 10px 16px;
-  box-shadow: 0px 2px 2px rgba(33, 37, 41, 0.06),
-    0px 0px 1px rgba(33, 37, 41, 0.08);
+  box-shadow: 0px 2px 2px rgba(33, 37, 41, 0.06), 0px 0px 1px rgba(33, 37, 41, 0.08);
   border-radius: 8px;
   border: 1px solid #ced4da;
   margin-bottom: 25px;
@@ -262,8 +248,6 @@ input:focus:required:invalid, textarea:focus:required:invalid {
 #submit:active {
   background-color: #0C1A66;
 }
-
-/*Form section END*/
 
 #footer {
   position: relative;
@@ -303,40 +287,989 @@ input:focus:required:invalid, textarea:focus:required:invalid {
   background-color: #020a33;
 }
 
-.protection {
-  position: relative;
-  white-space: pre-line;
+/* ==================================================
+   2. MOBILE & MENTIONS LÉGALES (Max 740px)
+   (Anciennement mobileStyle.css & mentionsLégalesStyle.css)
+   ================================================== */
+@media (max-width: 740px) {
+
+  /* Styles de mobileStyle.css */
+  .logo {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .chantier-box {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+
+  .chantier {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .slogan {
+    position: absolute;
+    bottom: 60px;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px;
+    margin: 0px 15px 80px 15px;
+  }
+
+  .margins {
+    margin: 0 15px;
+  }
+
+  .titreConnaitre {
+    margin-top: 30px;
+  }
+
+  .intro {
+    margin-bottom: 50px;
+  }
+
+  .accompagnement {
+    margin-bottom: 25px;
+    justify-self: flex-start;
+  }
+
+  .img-subtitle {
+    margin-bottom: 5px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .text-in-row1, .text-in-row2, .text-in-row3 {
+    position: relative;
+    min-width: 290px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .text-in-row-par1, .text-in-row-par2 {
+    margin-bottom: 25px;
+  }
+
+  .text-deplacement2 {
+    margin-bottom: 25px;
+  }
+
+  .mapGoogle {
+    max-height: 219px;
+  }
+
+  #contactUs {
+    width: 100%;
+    max-height: 1145px;
+  }
+
+  .iconTel, .iconMail, .iconCal {
+    min-width: 47.96px;
+    min-height: 48px;
+  }
+
+  .contact {
+    bottom: 163px;
+  }
+
+  .contactMail {
+    bottom: 127px;
+  }
+
+  #horaires {
+    width: 115px;
+    bottom: 107px;
+    left: 67px;
+    margin: 0px;
+  }
+
+  #form {
+    bottom: 110px;
+  }
+
+  .message {
+    bottom: 82px;
+    margin: 30px 0px 25px 0px;
+  }
+
+  #objet {
+    margin-bottom: 2px;
+  }
+
+  .yourMsg {
+    margin-top: 0px;
+  }
+
+  #submit-container {
+    bottom: 7px;
+    margin-bottom: 17px;
+  }
+
+  #submit {
+    margin-bottom: 17px;
+  }
+
+  #footer {
+    background: #020a33;
+    color: #fff;
+    left: 0px;
+    top: 46px;
+  }
+
+  .footer-margins {
+    margin: 15px;
+  }
+
+  .protection {
+    top: 15px;
+  }
+
+  .data-protection {
+    bottom: 20px;
+    white-space: pre-line;
+  }
+
+  /* Styles de mentionsLégalesStyle.css pour mobile */
+  #close-btn {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 84px;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 13px;
+    text-decoration: none;
+    opacity: 100;
+    padding: 18px;
+    background-color: #020a33;
+    right: 4%;
+  }
+
+  #main-container {
+    width: 100%;
+  }
+
+  #renseignements {
+    width: 92%;
+    height: 560px;
+    margin: 0px 15px;
+  }
+
+  .subtitle {
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-decoration: underline;
+  }
+
+  .label {
+    min-width: 250px;
+    height: 25px;
+    margin-bottom: 2px;
+  }
+
+  .bubble {
+    border: 1px solid white;
+    padding: 10px 16px;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  #numeroId {
+    width: 92%;
+    height: 560px;
+    margin-bottom: 50px;
+    margin: 30px 15px;
+  }
+
+  .enregistrement {
+    width: 100%;
+    height: 25px;
+    margin: 0px 15px 50px 15px;
+  }
+
+  .text1 {
+    width: 90%;
+    white-space: pre-line;
+    margin: 0px 15px 50px 15px;
+  }
+
+  .host {
+    height: 200px;
+    margin: 0px 15px;
+    white-space: pre-line;
+  }
 }
 
-.data-protection {
-  position: relative;
+/* ==================================================
+   3. TABLET (740px to 900px)
+   (Anciennement tabletStyle.css & Mentions Tablet)
+   ================================================== */
+@media (min-width: 740px) {
+
+  /* Mentions Légales Part (min-width 740px) */
+  #close-btn {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 84px;
+    align-items: center;
+    text-decoration: none;
+    padding: 18px 0px;
+    background-color: #020a33;
+    justify-content: right;
+  }
+
+  a {
+    margin-right: 6.5%;
+  }
+
+  h2 {
+    margin: 50px 0 0 0;
+  }
+
+  #main-container {
+    width: 100%;
+    margin: 0px 42px;
+  }
+
+  #sub-container {
+    display: flex;
+    width: 88%;
+  }
+
+  #renseignements {
+    width: 47%;
+    height: 560px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+  }
+
+  .subtitle {
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-decoration: underline;
+  }
+
+  .label {
+    width: 290px;
+    height: 25px;
+    margin-bottom: 2px;
+  }
+
+  .bubble {
+    border: 1px solid white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+
+  #numeroId {
+    width: 47%;
+    height: 560px;
+  }
+
+  #lastParagraphs {
+    width: 87%;
+  }
+
+  .enregistrement {
+    margin-bottom: 50px;
+  }
+
+  .text1 {
+    width: 100%;
+    white-space: pre-line;
+    margin-bottom: 50px;
+  }
+
+  .host {
+    white-space: pre-line;
+    margin-bottom: 50px;
+  }
 }
 
-.team {
-  position: relative;
-  min-width: 290px;
-  height: 50px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 25px;
-  color: #fff;
-  background-color: #020a33;
+@media (min-width: 740px) and (max-width: 900px) {
+
+  /* Spécifique tabletStyle.css */
+  .chantier-box {
+    position: relative;
+    height: 423px;
+  }
+
+  .chantier {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    object-fit: cover;
+  }
+
+  .logo {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+
+  .slogan {
+    position: relative;
+    width: 470px;
+    height: 112px;
+    bottom: 450px;
+    z-index: 1;
+    font-size: 40px;
+    line-height: 41px;
+    margin-top: 227px;
+    margin-left: 42px;
+    text-align: left;
+  }
+
+  .margins {
+    position: relative;
+    width: 100%;
+    padding: 30px 40px;
+  }
+
+  #nousConnaitre {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .titreConnaitre {
+    margin: 29px 0px 0px 0px;
+  }
+
+  .intro {
+    align-self: center;
+    min-width: 100%;
+    margin: 0px;
+  }
+
+  .accompagnement {
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .row {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .text-in-row1 {
+    position: relative;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .text-in-row-par1 {
+    min-width: 483px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .text-in-row2 {
+    position: relative;
+    text-align: center;
+    align-self: center;
+    min-width: 317px;
+    height: 271px;
+    padding: 0px 40px 0px 0px;
+  }
+
+  .text-in-row3 {
+    position: relative;
+    text-align: center;
+    align-self: center;
+    min-width: 317px;
+    height: 271px;
+    padding: 0px 0px 0px 40px;
+  }
+
+  #nosDeplacements {
+    margin: 50px 0px;
+    position: relative;
+  }
+
+  .mapGoogle {
+    height: 500px;
+  }
+
+  .text-deplacement2 {
+    margin-bottom: 25px;
+  }
+
+  .iconMail {
+    position: relative;
+    bottom: 58px;
+    left: 205px;
+  }
+
+  .iconCal {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .contact {
+    bottom: 160px;
+  }
+
+  .contactMail {
+    bottom: 185px;
+    left: 254.21px;
+  }
+
+  #horaires {
+    margin-right: 0px;
+    bottom: 155px;
+    left: 63px;
+    width: 140px;
+  }
+
+  #form {
+    width: 100%;
+    bottom: 150px;
+  }
+
+  .message {
+    bottom: 155px;
+  }
+
+  #name-label {
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 2px;
+  }
+
+  .input-name {
+    position: relative;
+    right: 118px;
+    width: 48%;
+  }
+
+  #business-label {
+    width: 47%;
+    position: relative;
+    bottom: 106px;
+    left: 52%;
+    margin-bottom: 2px;
+  }
+
+  .input-business {
+    position: relative;
+    bottom: 66px;
+    left: 4.5%;
+    height: 48px;
+    width: 47.99%;
+  }
+
+  #email-label {
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 83px;
+  }
+
+  .input-email {
+    position: relative;
+    width: 48%;
+    bottom: 43px;
+    right: 53px;
+    height: 48px;
+  }
+
+  #tel-label {
+    width: 47%;
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 149px;
+    left: 52%;
+  }
+
+  .input-tel {
+    position: relative;
+    bottom: 109px;
+    left: 4.5%;
+    width: 47.99%;
+    height: 48px;
+  }
+
+  #adresse-postale {
+    width: 100%;
+    position: relative;
+    bottom: 114px;
+    margin-bottom: 2px;
+  }
+
+  .input-address {
+    width: 100%;
+    position: relative;
+    bottom: 113px;
+  }
+
+  #objet {
+    bottom: 119px;
+  }
+
+  .input-objet {
+    bottom: 117px;
+  }
+
+  .yourMsg {
+    bottom: 120px;
+  }
+
+  .input-textarea {
+    bottom: 119px;
+  }
+
+  #submit-container {
+    bottom: 126px;
+  }
+
+  #submit {
+    border-radius: 100px;
+    margin-bottom: 68px;
+  }
+
+  #footer {
+    min-height: 314px;
+    margin-top: -15px;
+  }
+
+  .footer-margins {
+    margin: 36px 42px 43px 43px;
+    min-width: 659px;
+  }
+
+  .protection {
+    top: 30px;
+  }
+
+  .data-protection {
+    width: 659px;
+    height: 235px;
+    top: 25px;
+    white-space: none;
+  }
+
+  .team {
+    top: 50px;
+    white-space: nowrap;
+  }
 }
 
-.protection {
-  position: relative;
-  white-space: pre-line;
+@media (min-width: 800px) and (max-width: 900px) {
+  .iconCal {
+    bottom: 115px;
+    left: 490px;
+  }
+
+  #horaires {
+    bottom: 220px;
+    left: 553px;
+  }
 }
 
-.data-protection {
-  position: relative;
+/* ==================================================
+   4. DESKTOP (900px and up)
+   (Anciennement desktopStyle.css)
+   ================================================== */
+@media (min-width: 900px) {
+  body {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .chantier-box {
+    height: 720px;
+  }
+
+  .chantier {
+    height: 720px;
+  }
+
+  .logo {
+    width: 45%;
+    max-width: 1280px;
+    height: 118px;
+    top: 50px;
+  }
+
+  .slogan-box {
+    position: relative;
+    bottom: 332px;
+    margin: 0px 86px;
+  }
+
+  .slogan {
+    width: 674px;
+    height: 164px;
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .margins {
+    max-width: 1280px;
+    padding: 0px 86px;
+    justify-content: center;
+  }
+
+  .titreConnaitre {
+    font-size: 48px;
+    line-height: 64px;
+    margin: 84px 0px 25px 0px;
+  }
+
+  .intro {
+    align-self: stretch;
+    margin-bottom: 100px;
+    font-size: 18px;
+  }
+
+  .accompagnement {
+    height: 64px;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 25px;
+  }
+
+  .profile-img {
+    margin-bottom: 5px;
+  }
+
+  .img-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 5px 0px;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px 0px 100px 0px;
+  }
+
+  .text-in-row1, .text-in-row2 {
+    display: inline-block;
+    max-width: 316.67px;
+    min-width: 200px;
+    height: 342px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 80px;
+    padding: 0px;
+  }
+
+  .text-in-row3 {
+    display: inline-block;
+    max-width: 316.67px;
+    height: 342px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 0px;
+  }
+
+  #nosDeplacements {
+    height: 450px;
+    width: 100%;
+  }
+
+  .deplacement {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 123px;
+  }
+
+  #text-deplacement {
+    position: relative;
+    min-width: 337px;
+    width: 43.5%;
+    height: 221px;
+    z-index: 1;
+    left: 28.5%;
+  }
+
+  .text-deplacement2 {
+    margin-bottom: 0px;
+  }
+
+  .mapGoogle {
+    width: 50%;
+    max-width: 540px;
+    height: 417px;
+    bottom: 350px;
+    border-radius: 12px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+
+  #contactUs {
+    position: relative;
+    top: 87px;
+    height: 816px;
+    justify-items: stretch;
+  }
+
+  .nousContacter {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 25px;
+  }
+
+  #contact-infos {
+    position: relative;
+    max-width: 349px;
+    left: 62.8%;
+    top: 5px;
+  }
+
+  .infos-pratiques {
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    top: 10px;
+  }
+
+  .iconTel, .iconMail, .iconCal {
+    top: 13px;
+  }
+
+  .contact {
+    bottom: 150px;
+  }
+
+  .contactMail {
+    bottom: 121px;
+  }
+
+  #horaires {
+    margin-left: 20px;
+    bottom: 105px;
+    left: 48px;
+    margin-bottom: 0px;
+  }
+
+  #form {
+    width: 55%;
+    min-width: 200px;
+    bottom: 378px;
+  }
+
+  .message {
+    bottom: 350px;
+    margin-top: 25px;
+  }
+
+  #name-label {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+
+  .input-name {
+    width: 47.5%;
+    margin-right: 30px;
+  }
+
+  #business-label {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+    left: 52.5%;
+    bottom: 96px;
+  }
+
+  .input-business {
+    position: relative;
+    height: 48px;
+    width: 47.5%;
+    left: 52.5%;
+    bottom: 96px;
+  }
+
+  #email-label {
+    position: relative;
+    margin-bottom: 2px;
+    width: 100%;
+    bottom: 95px;
+  }
+
+  .input-email {
+    position: relative;
+    width: 47.5%;
+    height: 48px;
+    bottom: 95px;
+    margin-right: 30px;
+  }
+
+  #tel-label {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+    left: 52.5%;
+    bottom: 191px;
+  }
+
+  .input-tel {
+    position: relative;
+    width: 47.5%;
+    height: 48px;
+    left: 52.5%;
+    bottom: 191px;
+  }
+
+  #adresse-postale {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2px;
+    bottom: 190px;
+  }
+
+  .input-address {
+    width: 100%;
+    position: relative;
+    bottom: 190px;
+  }
+
+  #objet {
+    bottom: 195px;
+  }
+
+  .input-objet {
+    bottom: 195px;
+  }
+
+  .yourMsg {
+    bottom: 200px;
+  }
+
+  .input-textarea {
+    bottom: 200px;
+  }
+
+  #submit {
+    bottom: 206px;
+    margin-bottom: 100px;
+  }
+
+  #footer {
+    font-size: 18px;
+    line-height: 28px;
+    top: 178px;
+  }
+
+  .footer-margins {
+    margin: 46px 85px 16px 85px;
+  }
+
+  .mentions {
+    font-size: 18px;
+    line-height: 48px;
+  }
+
+  .protection {
+    margin-top: 30px;
+  }
+
+  .data-protection {
+    max-width: 659px;
+    height: 235px;
+  }
+
+  .team {
+    margin-top: 30px;
+  }
 }
 
-.team {
-  position: relative;
-  min-width: 290px;
-  height: 50px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 25px;
+/* ==================================================
+   5. VERY LARGE SCREENS (1280px and up)
+   (Anciennement desktopStyle & mentionsLégalesStyle)
+   ================================================== */
+@media (min-width: 1280px) {
+
+  /* Mentions Légales Part */
+  body {
+    justify-content: center;
+    max-height: 780px;
+  }
+
+  h2 {
+    margin-left: 0px;
+  }
+
+  #close-btn {
+    position: fixed;
+    max-width: 1280px;
+    margin-right: 179px;
+    width: 100%;
+    justify-self: center;
+    justify-content: right;
+    z-index: 1;
+  }
+
+  #main-container {
+    position: relative;
+    max-height: 720px;
+    top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  #sub-container {
+    width: 60%;
+  }
+
+  #renseignements {
+    width: 48%;
+    margin-right: 50px;
+  }
+
+  #numeroId {
+    width: 48%;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+
+  #lastParagraphs {
+    position: relative;
+    bottom: 610px;
+    left: 63%;
+    width: 32%;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  /* Desktop Styles part */
+  .slogan-box {
+    display: grid;
+    left: 6%;
+  }
+
+  .chantier {
+    width: 100%;
+  }
+
+  #footer {
+    display: grid;
+    justify-content: center;
+  }
+
+  .footer-margins {
+    max-width: 1280px;
+    margin-left: 9.5%;
+  }
 }
