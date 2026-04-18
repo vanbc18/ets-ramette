@@ -299,4 +299,44 @@ input:focus:required:invalid, textarea:focus:required:invalid {
   font-weight: 400;
   font-size: 12px;
   line-height: 25px;
+  color: #fff;
+  background-color: #020a33;
+}
+
+.protection {
+  position: relative;
+  white-space: pre-line;
+}
+
+.data-protection {
+  position: relative;
+}
+
+.team {
+  position: relative;
+  min-width: 290px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  color: #fff;
+  background-color: #020a33;
+}
+
+.protection {
+  position: relative;
+  white-space: pre-line;
+}
+
+.data-protection {
+  position: relative;
+}
+
+.team {
+  position: relative;
+  min-width: 290px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
 }

@@ -1,17 +1,28 @@
 /*Mobile version*/
 @media (max-width: 740px) {
-
+    .logo {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    }  
     /*First part with picture START */
     .chantier-box {
       position: relative;
       width: 100%;
       text-align: center;
-      height: 423px;
+      height: fit-content;
+    }
+
+    .chantier {
+      width: 100%;
+      object-fit: cover;
     }
   
     .slogan {
-      position: relative;
-      bottom: 160px;
+      position: absolute;
+      bottom: 60px;
       font-size: 24px;
       line-height: 30px;
       padding: 10px;
@@ -20,25 +31,19 @@
     /*First part with picture END */
   
     .margins {
-      padding-left: 15px;
-      padding-right: 15px;
+      margin: 0 15px;
     }
   
     /*Nous connaître section START*/
-    #nousConnaitre {
-      max-height: 280px;
-    }
   
     .titreConnaitre {
-      margin: 30px 0px 25px 0px;
-    }
-  
-    .intro {
-      margin-bottom: 50px;
+      margin-top: 30px;
     }
   
     /*Nous connaître section END*/
-  
+    .intro {
+      margin-bottom: 50px;
+    }
     /*Notre accompagnement START*/
     .accompagnement {
       margin-bottom: 25px;
@@ -59,7 +64,6 @@
     .text-in-row2,
     .text-in-row3 {
       position: relative;
-      top: 10px;
       min-width: 290px;
       font-weight: 400;
       font-size: 16px;
